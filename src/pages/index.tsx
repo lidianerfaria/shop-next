@@ -1,7 +1,9 @@
+import { styled } from '../styles';
+
+const Button = styled('button', {
+  backgroundColor: '$main',
+});
+
 export default function Home() {
-  return (
-    <>
-      <h1>Hello!</h1>
-    </>
-  );
+  return <Button>Hello!</Button>;
 }
